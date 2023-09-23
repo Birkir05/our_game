@@ -11,6 +11,16 @@ class Player(py.sprite.Sprite):
         super().__init__(self.groups)
         self.game = game
 
+    def update(self): # Kallað á update fallið fyrir hvern ramma sem líður
+        self.acc = vec(0, GRAVITY)
+
+        keys = py.key.get_pressed()
+        if keys[py.K_d]:
+            self.acc.x = ACC
+        if keys[py.K_a]:
+            self.acc.x = -ACC
+        
+
     def jump(self):
         self.vel.y = -13 # Látum hann fá hraða upp
     
