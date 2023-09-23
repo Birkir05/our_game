@@ -41,3 +41,5 @@ MOB_ACC = 0.15 # Hröðun óvina (mobile units)
 BOSS_ACC = 0.30 
 WIZARD_ACC = 0.10
 NP_ACC = 0.05
+GOBLIN_ACC = 0.50
+SKELETOR_ACC = 0.80
