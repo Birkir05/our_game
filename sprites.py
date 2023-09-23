@@ -19,6 +19,9 @@ class Player(py.sprite.Sprite):
             self.acc.x = ACC
         if keys[py.K_a]:
             self.acc.x = -ACC
+
+        # Loftmótstaðan, hefur áhrif á hröðun, meiri hraði =>  meiri mótstaða
+        self.acc.x -= self.vel.x * DRAG
         
 
     def jump(self):
