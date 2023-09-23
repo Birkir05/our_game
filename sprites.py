@@ -22,6 +22,9 @@ class Player(py.sprite.Sprite):
 
         # Loftmótstaðan, hefur áhrif á hröðun, meiri hraði =>  meiri mótstaða
         self.acc.x -= self.vel.x * DRAG
+
+        # Geymum gömlu staðsetninguna
+        old_pos = self.pos
         
 
     def jump(self):
