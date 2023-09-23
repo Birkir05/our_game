@@ -40,3 +40,4 @@ ACC = 0.25 # Hröðun hetjunnar (acceleration)
 MOB_ACC = 0.15 # Hröðun óvina (mobile units)
 BOSS_ACC = 0.30 
 GOBLIN_ACC = 0.50
+SKELETOR_ACC = 0.80
