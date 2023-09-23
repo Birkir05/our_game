@@ -27,3 +27,6 @@ class Player(py.sprite.Sprite):
             self.image.fill(RED)
             self.rect = self.image.get_rect()   # rammi
             self.rect.topleft = vec(x, y)
+
+
+
