@@ -25,6 +25,10 @@ class Player(py.sprite.Sprite):
 
         # Geymum gömlu staðsetninguna
         old_pos = self.pos
+
+        # Uppærum staðsetningu
+        # x = 1/2*a*t^2 +v_0t +x_0 (t = 1 rammi)
+        self.pos = 0.5*self.acc + self.vel + self.po
         
 
     def jump(self):
