@@ -10,6 +10,11 @@ class Player(py.sprite.Sprite):
         self.groups = self.game.all_sprites
         super().__init__(self.groups)
         self.game = game
+
+    def jump(self):
+        self.vel.y = -13 # Látum hann fá hraða upp
+    
+
     
     # Pallar
     class Platform(py.sprite.Sprite):
