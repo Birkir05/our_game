@@ -39,3 +39,4 @@ ACC = 0.25 # Hröðun hetjunnar (acceleration)
 # ****** Eiginleikar óvina *****
 MOB_ACC = 0.15 # Hröðun óvina (mobile units)
 BOSS_ACC = 0.30 
+WIZARD_ACC = 0.10
